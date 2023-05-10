@@ -15,7 +15,7 @@ html {
 body {
   font-family: Anton, Impact, "Arial Narrow Bold", sans-serif;
   background-color: #d95da6;
-  background-image: url("images/WAP.png");
+  background-image: url("../images/WAP.png");
   background-size: auto;
   position: relative;
   margin: 0;
