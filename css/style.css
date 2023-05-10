@@ -393,6 +393,34 @@ hr {
   }
 }
 
+.scrollToTopBtn {
+  background-color: white;
+  border-radius: 50px;
+  border: 3px solid white;
+  color: #d95da6;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bolder;
+  line-height: 30px;
+  width: 40px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 100;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+}
+
+.scrollToTopBtn:hover {
+  scale: 1.2;
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @media only screen and (max-width: 1800px) {
   .bigb {
     width: 50vw;
@@ -483,6 +511,11 @@ hr {
 
   audio {
     margin-bottom: -30px;
+  }
+
+  .scrollToTopBtn {
+    border: 3px solid #d95da6;
+    color: #d95da6;
   }
 }
 
